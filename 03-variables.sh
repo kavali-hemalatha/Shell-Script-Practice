@@ -1,7 +1,7 @@
 #!/bin/bash
 
-person1=Hema
-person2=Latha
+person1=Chinna
+person2=Hemalatha
 
 # while declaring variables, no space shound be there between value and equal.
 
