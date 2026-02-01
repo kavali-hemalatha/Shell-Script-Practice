@@ -6,7 +6,7 @@ log_file="/var/log/shell-script/$0.log"
 
 
 if [ $user_id -ne 0 ]; then
-echo "this script needs to be run with root user"
+echo "this script needs to be run with root user" | tee -a $log_file
 exit 1
 fi
 
@@ -14,13 +14,13 @@ mkdir -p $log_folder
 
 VALIDATE(){
     if [ $1 -ne 0 ]; then
-echo "$2.....FAILURE"
+echo "$2.....FAILURE" | tee -a $log_file
 exit 1
 else
-echo "$2.....SUCCESS"
+echo "$2.....SUCCESS" | tee -a $log_file
 fi
 }
-echo "installing Nginx..."
+
 dnf install nginx -y &>> $log_file
 VALIDATE $? "installing nginx"
 
