@@ -8,3 +8,4 @@ elif [ $number -eq 45 ]; then
 echo "Entered number : equal to 45"
 else
 echo "Entered number : $number less than 45"
+fi
