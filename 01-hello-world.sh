@@ -4,3 +4,5 @@
 echo "Hello World!"
 
 echo "Hi, Im learning Git"
+
+echo "Hi, Im learning shell scripting"
