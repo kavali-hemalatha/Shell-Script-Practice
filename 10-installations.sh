@@ -15,3 +15,4 @@ echo "installing Ngnix.....FAILURE"
 exit 1
 else
 echo "installing Nginx.....SUCCESS"
+fi
