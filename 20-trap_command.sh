@@ -1,7 +1,7 @@
 #!/bin/bash/
 
 set -e
-set -x
+##set -x
 
 echo "Hello World"
 echo "Im learning linux"
