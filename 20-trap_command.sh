@@ -2,6 +2,7 @@
 
 set -e
 ##set -x
+trap 'echo "there is a error in $LINENO, command : $BASH_COMMAND"' ERR
 
 echo "Hello World"
 echo "Im learning linux"
