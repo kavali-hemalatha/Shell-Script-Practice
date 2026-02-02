@@ -1,6 +1,7 @@
 #!/bin/bash
 
-set -e ## this command will be checking errors. if errors it will exit
+##set -e ## this command will be checking errors. if errors it will exit
+set -x
 
 R='\e[31m'
 G='\e[32m'
