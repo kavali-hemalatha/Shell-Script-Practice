@@ -1,7 +1,7 @@
 #!/bin/bash
 
-##set -e ## this command will be checking errors. if errors it will exit
-set -x
+set -e ## this command will be checking errors. if errors it will exit
+set -x ## -x enables execution tracing in a Bash script.
 
 R='\e[31m'
 G='\e[32m'
