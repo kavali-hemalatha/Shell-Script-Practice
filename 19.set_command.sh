@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e ## this command will be checking errors. if errors it will exit
+
 R='\e[31m'
 G='\e[32m'
 Y='\e[33m'
