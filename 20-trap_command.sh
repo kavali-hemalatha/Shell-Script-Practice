@@ -1,5 +1,8 @@
 #!/bin/bash/
 
+set -e
+set -x
+
 echo "Hello World"
 echo "Im learning linux"
 echoo "Im learning shell script"
