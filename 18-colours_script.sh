@@ -10,7 +10,7 @@ log_folder="/var/log/shell-script"
 log_file="/var/log/shell-script/$0.log"
 
 if [ $user_id -ne 0 ]; then
-echo -e "this script needs to be run with $R root $N user" | tee -a $log_file
+echo -e "this script needs to be run with $Rroot$N user" | tee -a $log_file
 exit 1
 fi
 
